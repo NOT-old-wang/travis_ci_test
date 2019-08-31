@@ -1,0 +1,15 @@
+
+after_script:
+  - git config user.name "NOT-old-wang"
+  - git config user.email "dawang5181314@163.com"
+
+deploy:
+  - type: git
+    repo: https://github.com/NOT-old-wang/travis_ci_test.git
+    branch: master
+  
+  # provider: pages
+  # skip_cleanup: true
+  # github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  # on:
+  #   branch: master
