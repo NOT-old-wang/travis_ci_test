@@ -7,9 +7,9 @@ branches:
   only:
   	- master
 
-after_script:
-  - git config user.name "NOT-old-wang"
-  - git config user.email "dawang5181314@163.com"
+# after_script:
+#   - git config user.name "NOT-old-wang"
+#   - git config user.email "dawang5181314@163.com"
 
 script:
   - cd src
@@ -17,10 +17,10 @@ script:
   - cd build && cmake ..
   - make
 
-# deploy:
-#   - type: git
-#     repo: https://github.com/NOT-old-wang/travis_ci_test.git
-#     branch: master
+deploy:
+  - type: git
+    repo: https://github.com/NOT-old-wang/travis_ci_test.git
+    branch: master
   
   # provider: pages
   # skip_cleanup: true
