@@ -5,7 +5,9 @@
 
 - 相关链接
   [官方教程](https://docs.travis-ci.com/user/tutorial/)
+ 
   [阮一峰教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+ 
   [持续集成介绍](http://network.51cto.com/art/201801/563064.htm)
 
 ## 指南
